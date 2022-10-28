@@ -1,0 +1,37 @@
+.team__contacts {
+  width: 206px;
+  height: 44px;
+  margin-left: 32px;
+  margin-bottom: 30px;
+}
+.team__contacts-list {
+  display: flex;
+  gap: 10px;
+}
+.team__contacts-link {
+  @extend %flex-jc-ac;
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  transition-property: background-color, border-radius;
+  @extend %animation;
+  &:hover {
+    .team__contacts-icon {
+      fill: var(--primary-white-color);
+    }
+    background-color: var(--accent-color);
+    border-radius: 100%;
+  }
+  &:focus {
+    .team__contacts-icon {
+      fill: var(--primary-white-color);
+    }
+    background-color: var(--accent-color);
+    border-radius: 100%;
+  }
+}
+.team__contacts-icon {
+  fill: var(--clients-color);
+  transition-property: fill;
+  @extend %animation;
+}

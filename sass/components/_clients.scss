@@ -1,0 +1,33 @@
+.clients__title {
+  margin-bottom: 50px;
+}
+.clients__list {
+  display: flex;
+  gap: 30px;
+}
+.clients__link {
+  @extend %flex-jc-ac;
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--clients-color);
+  border-radius: 4px;
+  transition-property: border-color;
+  @extend %animation;
+  &:hover {
+    border-color: var(--accent-color);
+    .client__icon {
+      fill: var(--accent-color);
+    }
+  }
+  &:focus {
+    border-color: var(--accent-color);
+    .client__icon {
+      fill: var(--accent-color);
+    }
+  }
+}
+.client__icon {
+  fill: var(--clients-color);
+  transition-property: fill;
+  @extend %animation;
+}
