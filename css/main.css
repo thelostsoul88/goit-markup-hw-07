@@ -157,7 +157,7 @@ body {
   padding-bottom: 32px;
 }
 
-.contacts__group {
+.contacts {
   display: flex;
   margin-left: auto;
 }
