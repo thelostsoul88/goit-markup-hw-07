@@ -563,66 +563,62 @@
         </button>
         <p class="modal__name">Залиште свої дані, ми вам передзвонимо</p>
         <form class="register">
-          <label for="users_name" class="register__label">
-            <span class="register__txt"> Ім'я </span>
-            <div class="register__container">
-              <input
-                class="register__input"
-                type="text"
-                id="users_name"
-                name="user_name"
-                required
-                autofocus
-                placeholder=""
-              />
-              <svg class="register__icon" width="12" height="12">
-                <use href=".//img/icons.svg#person-modal"></use>
-              </svg>
-            </div>
-          </label>
-          <label for="users_tel" class="register__label">
-            <span class="register__txt"> Телефон </span>
-            <div class="register__container">
-              <input
-                class="register__input"
-                type="tel"
-                id="users_tel"
-                name="user-tel"
-                required
-                pattern="[\+]\d{3}\d{2}\d{3}\d{2}\d{2}"
-                placeholder=""
-              />
-              <svg class="register__icon" width="13" height="13">
-                <use href=".//img/icons.svg#phone-modal"></use>
-              </svg>
-            </div>
-          </label>
-          <label for="users_email" class="register__label">
-            <span class="register__txt"> Пошта </span>
-            <div class="register__container">
-              <input
-                class="register__input"
-                type="email"
-                id="users_email"
-                name="user_email"
-                required
-                placeholder=""
-              />
-              <svg class="register__icon" width="15" height="12">
-                <use href=".//img/icons.svg#email-modal"></use>
-              </svg>
-            </div>
-          </label>
-          <label for="users_commentary" class="register__label">
-            <span class="register__txt">Коментар</span>
-            <textarea
-              id="users_commentary"
-              class="register__area"
-              name="user_comment"
-              placeholder="Введіть текст"
+          <label for="users_name" class="register__label"></label>
+          <span class="register__txt"> Ім'я </span>
+          <div class="register__container">
+            <input
+              class="register__input"
               type="text"
-            ></textarea>
-          </label>
+              id="users_name"
+              name="user_name"
+              required
+              autofocus
+              placeholder=""
+            />
+            <svg class="register__icon" width="12" height="12">
+              <use href=".//img/icons.svg#person-modal"></use>
+            </svg>
+          </div>
+          <label for="users_tel" class="register__label"></label>
+          <span class="register__txt"> Телефон </span>
+          <div class="register__container">
+            <input
+              class="register__input"
+              type="tel"
+              id="users_tel"
+              name="user-tel"
+              required
+              pattern="[\+]\d{3}\d{2}\d{3}\d{2}\d{2}"
+              placeholder=""
+            />
+            <svg class="register__icon" width="13" height="13">
+              <use href=".//img/icons.svg#phone-modal"></use>
+            </svg>
+          </div>
+          <label for="users_email" class="register__label"></label>
+          <span class="register__txt"> Пошта </span>
+          <div class="register__container">
+            <input
+              class="register__input"
+              type="email"
+              id="users_email"
+              name="user_email"
+              required
+              placeholder=""
+            />
+            <svg class="register__icon" width="15" height="12">
+              <use href=".//img/icons.svg#email-modal"></use>
+            </svg>
+          </div>
+          <label for="users_commentary" class="register__label"></label>
+          <span class="register__txt">Коментар</span>
+          <textarea
+            id="users_commentary"
+            class="register__area"
+            name="user_comment"
+            placeholder="Введіть текст"
+            type="text"
+          ></textarea>
           <label class="register__checkbox" for="contract">
             <input
               id="contract"
