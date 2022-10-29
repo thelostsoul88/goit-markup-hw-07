@@ -5,8 +5,10 @@
 @import './utils/hidden';
 @import './base/container';
 @import './base/section';
-@import './utils/style-title';
 @import './utils/placeholders';
+@import './utils/style--title';
+@import './utils/primary--list';
+@import './utils/contact--list';
 
 //components
 @import './components/header';

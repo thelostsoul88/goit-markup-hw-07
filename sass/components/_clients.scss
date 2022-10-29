@@ -1,10 +1,6 @@
 .clients__title {
   margin-bottom: 50px;
 }
-.clients__list {
-  display: flex;
-  gap: 30px;
-}
 .clients__link {
   @extend %flex-jc-ac;
   width: 170px;

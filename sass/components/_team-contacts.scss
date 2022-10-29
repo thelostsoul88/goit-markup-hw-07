@@ -4,10 +4,6 @@
   margin-left: 32px;
   margin-bottom: 30px;
 }
-.team__contacts-list {
-  display: flex;
-  gap: 10px;
-}
 .team__contacts-link {
   @extend %flex-jc-ac;
   width: 44px;

@@ -14,8 +14,6 @@
   margin-bottom: 20px;
 }
 .join__list {
-  display: flex;
-  gap: 10px;
   .join__link {
     &:hover {
       background-color: var(--accent-color);

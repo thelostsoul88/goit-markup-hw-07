@@ -99,10 +99,10 @@
 .register__checkbox-icon {
   margin-right: 8px;
   &:focus {
-    .checkbox-use {
+    .register__checkbox-use {
       fill: transparent;
     }
-    .check-use {
+    .register__check-use {
       fill: var(--accent-color);
     }
   }
